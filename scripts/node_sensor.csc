@@ -30,7 +30,7 @@ end
 //Envía mensaje al nodo base que tiene bateria baja
 battery bat
 if(bat<5)
-	data mens "critico" lonSen latSen id
+	data mens "critico" lonSen latSen id bat
 	send mens ant
 end
 
