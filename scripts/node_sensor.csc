@@ -1,6 +1,8 @@
 set ant 999
-set ite 0 //Iteraciones inician en 0
-battery set 100 //Se define la bateria 100
+//Iteraciones inician en 0
+set ite 0
+//Se define la bateria 100
+battery set 100
 
 atget id id
 getpos2 lonSen latSen
@@ -11,9 +13,11 @@ wait 10
 read mens
 rdata mens tipo valor
 
-inc ite //Incrementa la iteración
+//Incrementa la iteración
+inc ite
 print ite
-if (ite >= 1000) //Si se ha llegado a 1000 transmisiones el sensor se detiene
+//Si se ha llegado a 1000 transmisiones el sensor se detiene
+if (ite >= 1000)
    cprint "Llego a 1000 iteraciones para sensor: " id
 	stop
 end
