@@ -11,10 +11,11 @@ if( tipo == "alerta")
 end
 
 if(tipo == "critico")
-	cprint "Nodo" idSensor "descargado. bat:" bateria ", longitud:" valor1 ", latitud: " valor2
+	cprint "Sensor" idSensor "descargado. bat:" bateria ", longitud:" valor1 ", latitud: " valor2
 	data p "stop"	
 	send p
 	wait 1000
+   cprint "Sensor base apagado..."
 	stop
 end
 

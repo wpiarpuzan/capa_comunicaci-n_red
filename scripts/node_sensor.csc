@@ -18,7 +18,7 @@ inc ite
 print ite
 //Si se ha llegado a 1000 transmisiones el sensor se detiene
 if (ite >= 1000)
-   cprint "Llego a 1000 iteraciones para sensor: " id
+   cprint "Llego a 1000 iteraciones para sensor: " id " - bateria:"  bat
 	stop
 end
 
