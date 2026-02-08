@@ -7,7 +7,7 @@ radio_channel:0
 radio_network_id:13108
 radio_radius:100.0
 radio_etx:0.00592
-radio_erx:0.0286
+radio_erx:0.00286
 radio_esleep:1.0E-7
 radio_elisten:1.0E-6
 radio_data_rate:250000
